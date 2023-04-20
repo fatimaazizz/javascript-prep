@@ -1,6 +1,6 @@
 # javascript-prep
 ## defination
-Javascript is a High Level , Oject-Oriented, Multi-Paragigm Rograming Language.\
+Javascript is a High Level , Oject-Oriented, Multi-Paradigm pograming Language.\
 ## Deeply Explained
 JavaScript is a high-level, prototype-based,object-oriented, multi-paradigm,interpreted or just-in-time compiled , dynamic, single-threaded, garbage-collected programming language with first-class functions and a non-blocking event loop concurrency model.
 ## High Level 
@@ -14,7 +14,7 @@ In High Level language **Developer don't need to worry  every happens automatica
  ## Interpreted or just-in-time compiled
  Computer system only understand  0 and 1 every program have to be written in machine code.which is  imposible for us to write. we write code in javscript human readable languag. it comiles at the runtime.
  ## Paradigm
- An Pproach and mindset of structing code , which  will direct coding style and techniques.
+ An aproach and mindset of structing code , which  will direct coding style and techniques.
 1. procedural programing 
 2. object-oriented programing 
 3. functional programing
@@ -35,6 +35,6 @@ javascript runs in one single thread, so it can do one thing at a time./
 **so long runing task** will block the execution of the other tasks.
 we want not blocking beahvior/
 ### how to acheive that?
-by usingh an **event loop** : takke long running task ,executes them in the "background" and puts them back in the main thread once  they are finished 
+by using an **event loop**  take long running task ,executes them in the "background" and puts them back in the main thread once  they are finished 
 
 
