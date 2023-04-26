@@ -32,3 +32,5 @@ Or where can we access a certain variable and where not?
 6. scope in is one-way street : a scope will never , ever have access to the variables of ani inner scope .
 7. the scope chain in a certain scope is equal to adding together all the varaible eniviorments o the all the parent scopes.
 8. the scoped chain has nothing to do with the order in which function were called . it does not affect the scope chain at all;
+
+https://dev.to/pranav016/advanced-javascript-series-part-42-scope-chains-and-their-working-lexical-and-variable-environments-19d5#:~:text=While%20the%20lexical%20environment%20refers,scope%20of%20a%20given%20environment.
