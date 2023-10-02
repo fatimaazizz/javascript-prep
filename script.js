@@ -43,7 +43,7 @@ const Jassica3={
 }
 
 // object.assign merge two objects and create a new object 
-const JassicaMarried3= Object.assign({},Jassica2);
+const JassicaMarried3= Object.assign({},Jassica3);
 JassicaMarried3.lastName='Davis';
 
 JassicaMarried3.family.push('Davis','Mary');
