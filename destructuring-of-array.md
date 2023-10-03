@@ -24,7 +24,7 @@ how we use to reverse the values in the  past
 const  students=['fawad','ali','hassan'];
 let [sn1,sn2]=students;
 const temp=sn1;
-sn1=s2;
+sn1=sn2;
 sn2=temp;
 console.log(sn1,sn2,students);
 ```
@@ -34,7 +34,49 @@ with destructuring we can reverse the values easily
 
 ```
 const  students=['fawad','ali','hassan'];
-const [sd1,sd2]=students;
+let [sd1,sd2]=students;
 [sd1,sd2]=[sd2,sd1];
 console.log(sd1,sd2,students);
+```
+important thing to note array destructuring will not effect the orginal array
+
+if you want first or third value from array than you can add holes betwwen values. What i mean will be cleared fron  example
+
+```
+const foodItem= ['burger','pizza','fries'];
+let [item1,,item3]= foodItem;
+console.log(item1,item3);
+```
+
+how to deal with nested  array in  destructuring
+
+```
+const nestedArray=[1,2,[4,5]];
+let [g,,h]=nestedArray;
+console.log(g,,h);
+// first second varaible will contain the array
+let [i,,[j,k]]=nestedArray;
+console.log(i,h,k);
+```
+
+how to deal with nested  array in  destructuring
+
+```
+const nestedArray=[1,2,[4,5]];
+let [g,,h]=nestedArray;
+console.log(g,,h);
+// first second varaible will contain the array
+let [i,,[j,k]]=nestedArray;
+console.log(i,h,k); 
+```
+
+we can set the default value  if value not  fount in the array
+
+```
+const newArray=[1,2];
+let [p,q,r]=newArray;
+console.log(p,q,r]);
+// first second varaible will contain the array
+let [s=1,t=1,u=1]]=newArray;
+console.log(s,t,u); 
 ```
