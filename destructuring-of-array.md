@@ -56,7 +56,7 @@ let [g,,h]=nestedArray;
 console.log(g,h);
 // first second varaible will contain the array
 let [i,,[j,k]]=nestedArray;
-console.log(i,h,k);
+console.log(i,j,k);
 ```
 
 
@@ -68,6 +68,6 @@ const newArray=[1,2];
 let [p,q,r]=newArray;
 console.log(p,q,r]);
 // first second varaible will contain the array
-let [s=1,t=1,u=1]]=newArray;
+let [s=1,t=1,u=1]=newArray;
 console.log(s,t,u); 
 ```
