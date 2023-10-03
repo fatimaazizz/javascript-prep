@@ -70,7 +70,7 @@ let [i,,[j,k]]=nestedArray;
 console.log(i,h,k); 
 ```
 
-we can set the default value  if value not  fount in the array
+we can set the default value  if value not  found in the array
 
 ```
 const newArray=[1,2];
