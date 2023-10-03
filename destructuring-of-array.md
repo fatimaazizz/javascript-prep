@@ -67,7 +67,7 @@ let [g,,h]=nestedArray;
 console.log(g,,h);
 // first second varaible will contain the array
 let [i,,[j,k]]=nestedArray;
-console.log(i,h,k); 
+console.log(i,j,k); 
 ```
 
 we can set the default value  if value not  found in the array
