@@ -22,11 +22,11 @@ how we use to reverse the values in the  past
 
 ```
 const  students=['fawad','ali','hassan'];
-let [s1,s2]=arr;
-const temp=s1;
-s1=s2;
-s2=temp;
-console.log(s1,s2,arr);
+let [sn1,sn2]=students;
+const temp=sn1;
+sn1=s2;
+sn2=temp;
+console.log(sn1,sn2,students);
 ```
 
 
@@ -34,7 +34,7 @@ with destructuring we can reverse the values easily
 
 ```
 const  students=['fawad','ali','hassan'];
-const [s1,s2]=arr;
-[s1,s2]=[s2,s1];
-console.log(s1,s2,arr);
+const [sd1,sd2]=students;
+[sd1,sd2]=[sd2,sd1];
+console.log(sd1,sd2,students);
 ```
