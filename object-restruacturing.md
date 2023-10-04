@@ -28,3 +28,26 @@ order: funaction[startIntex,mainIndex]{
   return[ this.starterMenu[starterIndex],this.mainMenu[mainIndex]];
 }
 ```
+
+## Basic syntax
+
+One thing to note in object restructuring  is that order is not important but property name is 
+
+```
+let {name, location} = restaurant;
+console.log(name,loaction);
+```
+
+## With change varaiable names
+
+```
+let {name:restaurantName, location:restaurantLoaction} = restaurant;
+console.log(restaurantName,restaurantLoaction);
+```
+
+## Default
+
+```
+let {openingHours:timing=[],menu=[]} = restaurant;
+console.log(timing,menu);
+```
