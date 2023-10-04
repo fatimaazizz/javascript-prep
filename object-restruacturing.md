@@ -29,7 +29,9 @@ order: function([startIntex,mainIndex]){
 },
 oderDelivery:function({starterIndex,mainIndex,timing,address})
 {
-  console.log(`Your order is received! ${this.starterMenu[starterIndex]}  and ${this.mainMenu[mainIndex]} will deliver it by ${timing} at ${address}  `)
+  console.log(`Your order is received! ${this.starterMenu[starterIndex]}
+ and ${this.mainMenu[mainIndex]} will deliver it by ${timing} at ${address}  `);
+}
 }
 ```
 
