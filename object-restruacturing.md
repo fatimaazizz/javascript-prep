@@ -63,8 +63,8 @@ console.log(timing,menu);
 We cannot write it directly `{a,b}=obj` because js {} take these brackets as code block
 
 ```
-let a= 99,
-let b= 100,
+let a= 99;
+let b= 100;
 
 const  obj= {a:10,b:200,c:140};
 
