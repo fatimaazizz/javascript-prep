@@ -90,7 +90,7 @@ console.log(o, c);
 it is important for method arugment list is long  and difficult to remember  order
 ```
 restaurant.oderDelivery({
-timing:'20:23'.
+timing:'20:23',
 starterIndex:1,
 mainIndex:2,
 address:'askari 9 , Lahore'
