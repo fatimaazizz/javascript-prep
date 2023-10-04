@@ -41,7 +41,7 @@ One thing to note in object restructuring  is that order is not important but pr
 
 ```
 let {name, location} = restaurant;
-console.log(name,loaction);
+console.log(name,location);
 ```
 
 ## With change varaiable names
