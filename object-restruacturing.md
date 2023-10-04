@@ -24,8 +24,12 @@ openingHours:{
   close:24
   },
 },
-order: funaction[startIntex,mainIndex]{
+order: function([startIntex,mainIndex]){
   return[ this.starterMenu[starterIndex],this.mainMenu[mainIndex]];
+},
+oderDelivery:function({starterIndex,mainIndex,timing,address})
+{
+  console.log(`Your order is received! ${this.starterMenu[starterIndex]}  and ${this.mainMenu[mainIndex]} will deliver it by ${timing} at ${address}  `)
 }
 ```
 
@@ -50,4 +54,43 @@ console.log(restaurantName,restaurantLoaction);
 ```
 let {openingHours:timing=[],menu=[]} = restaurant;
 console.log(timing,menu);
+```
+
+## Assign values to existing varibales
+
+We cannot write it directly `{a,b}=obj` because js {} take these brackets as code block
+
+```
+let a= 99,
+let b= 100,
+
+const  obj= {a:10,b:200,c:140};
+
+({a,b}=obj);
+
+console.log(a,b);
+```
+## Nested objects
+We have created a timing  variable  lets reuse it.
+
+```
+const {fri:{open,close} }=timing;
+console.log(open, close);
+
+// we can also rename it
+
+const {fri:{open:o,close:c} }=timing;
+console.log(o, c);
+
+```
+## Useful usecase of object restructuring 
+
+it is important for method arugment list is long  and difficult to remember  order
+```
+restaurant.oderDelivery({
+timing:'20:23'.
+starterIndex:1,
+mainIndex:2,
+address:'askari 9 , Lahore'
+})
 ```
