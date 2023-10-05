@@ -27,7 +27,7 @@ console.log(9,10,1,2,3);
 1. Spread operators are used to make a copy of existing array and object
 2. to pass araguments to a function.
 
-```
+
 ## Iterables
 
 Spread operators work on all iterables like array,map,set and string.
