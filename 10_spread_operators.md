@@ -75,14 +75,14 @@ oderDelivery:function({starterIndex,mainIndex,timing,address})
 {
   console.log(`Your order is received! ${this.starterMenu[starterIndex]}
  and ${this.mainMenu[mainIndex]} will deliver it by ${timing} at ${address}  `);
-}
+},
 oderPasta:function(ing1,ing2,ing3)
 {
   console.log(`here is your pasta with  ${ing1} , ${ing2}
  and ${ing3}`);
 }
 }
-const Ingredient=[propmt("Let's add 1st ingredient for pasta"),propmt("2nd ingredient for pasta"),propmt("3rd ingredient for pasta")];
+const Ingredient=[prompt("Let's add 1st ingredient for pasta"),prompt("2nd ingredient for pasta"),prompt("3rd ingredient for pasta")];
 restaurant.oderPasta(Ingredient[0],Ingredient[1],Ingredient[2]);
 restaurant.oderPasta(...Ingredient);
 
