@@ -1,7 +1,7 @@
 # Short Circuting
 
 logical operators always don't give true and false.
-they can use any data type, retuern any data type and They do short circutting
+they can use any data type, return any data type and They do short circutting
 
 
 ## OR operator 
