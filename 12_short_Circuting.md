@@ -49,8 +49,8 @@ age:function(bornyear)
 }
 if(person1.age)
 {
-person1.age();
+person1.age(1999);
 }
-person1.age && person1.age()
+person1.age && person1.age(1999)
 ```
 
