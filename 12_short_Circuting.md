@@ -26,13 +26,7 @@ const height=person.height||'5 feet';
 console.log(`height :${height} ,height1 :${height1}`);
 ```
 
-```
-  console.log(20 || 'fatima');
-  console.log(0 || 'fatima');
-  console.log( true || '0');
-  console.log( undefined || null);
-  console.log( undefined || 0 ||''||null||'my world');
-```
+
 
 ## AND operator 
 
