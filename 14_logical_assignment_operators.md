@@ -7,7 +7,7 @@ const rest1={
 name :'Meet the cheese',
 numGuest:20}
 const rest2={
-name: 'Dar's delighto',
+name: "Dar's delighto",
 owner:'Dar'}
 rest1.numGuest=rest1.numGuest || 10;
 rest2.numGuest=rest2.numGuest || 10;
@@ -23,7 +23,7 @@ const rest1Or={
 name:'Meet the cheese',
 numGuest:20}
 const rest2Or={
-name:'Dar's delighto',
+name:"Dar's delighto",
 owner:'Dar'}
 
 rest1Or.numGuest ||=10;
@@ -39,7 +39,7 @@ const rest1Null={
 name:'Meet the cheese',
 numGuest:20}
 const rest2Null={
-name:'Dar's delighto',
+name:"Dar's delighto",
 owner:'Dar'}
 
 rest1Null.numGuest ??=10;
@@ -57,7 +57,7 @@ const rest1And={
 name:'Meet the cheese',
 numGuest:20}
 const restNull={
-name:'Dar's delighto',
+name:"Dar's delighto",
 owner:'Dar'}
 
 rest1And.owner &&='<anonymous>';
