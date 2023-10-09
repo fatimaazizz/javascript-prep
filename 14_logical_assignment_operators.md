@@ -37,7 +37,7 @@ as we  have already studied or operator returns the first truthy value
 ```
 const rest1Null={
 name:'Meet the cheese',
-numGuest:20}
+numGuest:0}
 const rest2Null={
 name:"Dar's delighto",
 owner:'Dar'}
@@ -56,7 +56,7 @@ but assignmnet operators assign the value iff its only true.
 const rest1And={
 name:'Meet the cheese',
 numGuest:20}
-const restNull={
+const rest2And={
 name:"Dar's delighto",
 owner:'Dar'}
 
