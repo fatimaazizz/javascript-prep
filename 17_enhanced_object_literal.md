@@ -1,7 +1,7 @@
 # Enhancem,ent in object literals
 Previously we can only use static values as key but now we can add keys dynamically
-look at the openingHours key pair.Directly use the variable.Variable name will be key for  it and also
- we can write the menthods without function key word.
+look at the **openingHours** key pair.Directly use the variable.Variable name will be key for  it and also
+ we can write the menthods without **function** key word.
 
 ```
 const days=["mon","tue","wed","thu","fri","sat","sun"];
