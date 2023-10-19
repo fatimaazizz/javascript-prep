@@ -18,15 +18,15 @@ const mainMenu=['Pizza','Pasta','Risotta']
  starterMenu :['Focaccia','Bruschetta','Gralic bread','Capress Salad'],
  mainMenu,
  openingHours:{
-   [days[3]]:{
+   thu:{
    open:12,
    close:22
    },
-   [days[4]]:{
+   fri:{
    open:11,
    close:23
    },
-   [days[5]]:{
+   sat:{
    open:0,
    close:24
    },
