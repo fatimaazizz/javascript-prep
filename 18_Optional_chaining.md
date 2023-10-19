@@ -45,7 +45,7 @@ const mainMenu=['Pizza','Pasta','Risotta']
  console.log(restIngredient)
  }
  }
-console.log(restaurant.openingHours.mon);
-
+//console.log(restaurant.openingHours.mon.open);
+console.log(restaurant?.openingHours?.mon?.open);
 ```
 
