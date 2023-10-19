@@ -5,7 +5,7 @@ look at the openingHours key pair.Directly use the variable.Variable name will b
 
 ```
 const days=["mon","tue","wed","thu","fri","sat","sun"];
-const mainMenu: ['Pizza','Pasta','Risotta']
+const mainMenu=['Pizza','Pasta','Risotta']
  const restaurant = {
  name:'Classico Italiano',
  location:'gulberg 5 , Lahore',
