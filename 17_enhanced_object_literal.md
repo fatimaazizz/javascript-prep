@@ -27,7 +27,7 @@ const mainMenu=['Pizza','Pasta','Risotta']
    },
  },
  order([startIntex,mainIndex]){
-   return[ this.starterMenu[starterIndex],this.mainMenu[mainIndex]];
+   return[ this.starterMenu[startIntex],this.mainMenu[mainIndex]];
  },
  oderDelivery:function({starterIndex,mainIndex,timing,address})
  {
