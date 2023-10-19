@@ -5,7 +5,7 @@ in the javascript instead traditional for loop we have a  for-of loop which work
 ## Advantage 
  Syntax is short and consized in the  for-loop . we do need to have a length condition and  increase the iterable  varible value to loop over.
 
- ## Example 
+ ## Example Array
 
  ```
  const restaurant = {
@@ -52,3 +52,12 @@ for(const  menuItem of menu)
   console.log(menuItem);
 }
 ```
+## Example for Object
+
+```
+for(const  [key,{open,close}] of Object.entries(restaurant.openingHours))
+{
+  console.log(`resturant on ${key} :opens at ${open} and closes at ${close}`);
+}
+```
+
