@@ -45,6 +45,8 @@ const mainMenu=['Pizza','Pasta','Risotta']
  console.log(restIngredient)
  }
  }
+//the line below will giove the error because mon object doeds not exists
+
 //console.log(restaurant.openingHours.mon.open);
 console.log(restaurant?.openingHours?.mon?.open);
 ```
