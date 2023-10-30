@@ -68,7 +68,7 @@ set can work with string
 ```
 
 const name="fatima";
-const uniqueLettersInName=new  set(name);
+const uniqueLettersInName=new Set(name);
 console.log(uniqueLettersInName.size);
 
 ```
